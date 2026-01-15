@@ -1,7 +1,6 @@
 const express= require('express');
 const app= express();
 
-app.listen (3000)
 const employees =require('./db/employees');
 app.get('/', (req,res) => {
   res.send('Hello Employees!');
